@@ -9,6 +9,7 @@ Memory Game in Vanilla Javascript. [[Demo]](https://coach-oox.github.io/memory-g
 
 ## Copyrights & Reference
 
+- Font : [Coming Soon](https://fonts.google.com/specimen/Coming+Soon?preview.text_type=custom)
 -   Card Images
     -   https://unsplash.com/photos/0hJL8lBl0qQ
     -   https://unsplash.com/photos/MBgN-CmZEk0
