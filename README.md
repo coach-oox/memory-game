@@ -2,6 +2,10 @@
 
 Memory Game in Vanilla Javascript. [[Demo]](https://coach-oox.github.io/memory-game/)
 
+## Issue 
+
+- [ ] 이미지 전부 로드한 다음 실행되게 변경되어야 함
+
 ## Preview
 
 ![](./images/preview.png)
