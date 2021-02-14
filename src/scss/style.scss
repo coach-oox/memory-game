@@ -1,0 +1,123 @@
+@import "./variables";
+@import "./mixins";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: $base-font;
+    background-color: $background-color;
+    color: $white;
+}
+
+.title {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    h2 {
+        font-size: 3em;
+        font-weight: bold;
+        color: $point-color;
+    }
+
+    span {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 1em;
+        color: $link-color;
+
+        &:hover {
+            color: $link-hover-color;
+        }
+    }
+}
+
+.container {
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+
+    .set-time {
+        @include button($gray, $point-hover-color);
+        color: $white;
+        width: 60px;
+        height: 25px;
+    }
+}
+
+.screen {
+    display: flex;
+    column-gap: 2em;
+}
+
+.ranking {
+    width: 120px;
+
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+
+    ol {
+        height: 90%;
+        border-radius: 10px;
+        background-color: $gray;
+        padding: 1em 0;
+        padding-left: 1.5em;
+    }
+
+    li {
+        font-size: 0.8em;
+        margin-bottom: 0.5em;
+    }
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+
+    img {
+        width: 100px;
+        height: 150px;
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+    }
+
+    .flip {
+        transform: rotateY(180deg);
+    }
+}
+
+.play {
+    @include button($point-color, $point-hover-color);
+    width: 120px;
+    height: 25px;
+}

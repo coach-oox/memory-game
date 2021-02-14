@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+/* font */
+/* color */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Coming Soon", cursive;
+  background-color: #303952;
+  color: #d1d8e0; }
+
+.title {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px; }
+  .title h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #f8a5c2; }
+  .title span {
+    font-size: 1em; }
+  .title a {
+    font-size: 1em;
+    color: #63cdda; }
+    .title a:hover {
+      color: #3dc1d3; }
+
+.container {
+  width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.menu {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1em;
+  margin-bottom: 2em;
+  font-size: 1.5em; }
+  .menu .set-time {
+    border: none;
+    border-radius: 15px;
+    font-family: "Coming Soon", cursive;
+    font-size: 16px;
+    background-color: #596275;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    color: #d1d8e0;
+    width: 60px;
+    height: 25px; }
+    .menu .set-time:hover {
+      background-color: #f78fb3; }
+
+.screen {
+  display: flex;
+  column-gap: 2em; }
+
+.ranking {
+  width: 120px; }
+  .ranking h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em; }
+  .ranking ol {
+    height: 90%;
+    border-radius: 10px;
+    background-color: #596275;
+    padding: 1em 0;
+    padding-left: 1.5em; }
+  .ranking li {
+    font-size: 0.8em;
+    margin-bottom: 0.5em; }
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em; }
+  .board img {
+    width: 100px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s; }
+  .board .flip {
+    transform: rotateY(180deg); }
+
+.play {
+  border: none;
+  border-radius: 15px;
+  font-family: "Coming Soon", cursive;
+  font-size: 16px;
+  background-color: #f8a5c2;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  width: 120px;
+  height: 25px; }
+  .play:hover {
+    background-color: #f78fb3; }

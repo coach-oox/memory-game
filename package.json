@@ -1,0 +1,27 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "Memory Game using Vanilla Javascript.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coach-oox/memory-game.git"
+  },
+  "author": "coach-oox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coach-oox/memory-game/issues"
+  },
+  "homepage": "https://github.com/coach-oox/memory-game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/register": "^7.12.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

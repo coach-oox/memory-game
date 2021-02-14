@@ -1,0 +1,12 @@
+@mixin button($background-color, $hover-color) {
+    border: none;
+    border-radius: 15px;
+    font-family: $base-font;
+    font-size: 16px;
+    background-color: $background-color;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
