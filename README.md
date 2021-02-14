@@ -1,6 +1,7 @@
 # Memory Game
 
-Memory Game in Vanilla Javascript. [[Demo]](https://coach-oox.github.io/memory-game/)
+Memory Game in Vanilla Javascript. [[Demo]](https://coach-oox.github.io/memory-game/)  
+🎈 Vanilla JS Project for Beginners.
 
 ## Issue 
 
